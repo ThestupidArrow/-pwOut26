@@ -1,0 +1,16 @@
+-->git init
+-->git status
+-->git add .
+-->git status
+-->git commit -m "Ficheiros finais da aula de 26 de Outubro"
+ # GITHUB Repositório Remoto
+No github criar um novo repositório
+
+#GIT Associar o repositório remoto ao repositorio
+local
+-->git remote add origin
+URL_REPOSITORIO_REMOTO
+
+# GIT Transferir os ficheiros do repositório local
+para o remoto
+-->git push origin master

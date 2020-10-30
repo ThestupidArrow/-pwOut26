@@ -1,0 +1,39 @@
+body { font-family: 'Segoe UI', Arial , sans-serif;}
+
+article { 
+    border: 2px #000000 solid;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    box-sizing: border-box;
+}
+
+article img { max-width: 100%;}
+
+main section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            }
+
+/*Media Queries*/
+
+@media (min-width:800px)
+{
+    /* articles 2 lado a lado*/
+    article {width:47%}    
+}
+
+@media (min-width:1000px)
+{
+    /* articles 3 lado a lado*/
+    article {width: 31%;}
+}
+
+@media (min-width:1200px)
+{
+    /* articles 4 lado a lado*/
+    article {width: 22%;}
+
+}
